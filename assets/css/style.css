@@ -1,3 +1,4 @@
+/* Page Styles */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,35 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/* End Page Styles */
+
+/* Utility Classes */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* End Utility Classes */
+
+/* Style the Header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +54,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +62,17 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* End Header Styles */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Hero Styles */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +81,9 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* End Hero Styles */
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* Sidebar Styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,7 +142,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* End Sidebar Styles */
 
+/* Primary Content Styles */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,7 +198,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* End Primary Content Styles */
 
+/* Footer Styles */
 .footer {
     padding: 30px;
     clear: both;
@@ -198,3 +211,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* End Footer Styles */
